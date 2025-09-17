@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/live-intent.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/live-intent", "dest": "/api/live-intent.js" }
+  ]
+}
